@@ -1,20 +1,19 @@
 # Adventure Works - ETL con PySpark y Arquitectura Medallion
 
-Descripción
 Este proyecto implementa un flujo ETL usando PySpark basado en la base de datos AdventureWorks2019. Se sigue la arquitectura Medallion (Bronze, Silver, Gold) para simular un pipeline de datos con fines de análisis de ventas.
 
-Estructura del repositorio
+Estructura del repositorio:
 - `data/`: Archivos CSV extraídos desde la base de datos.
 - `ambientes/`: Almacén de datos delta.
 - `src/`: Notebooks organizados por fases: Extracción, Transformación, Carga.
 
-Tecnologías utilizadas
+Tecnologías utilizadas:
 - PySpark
 - Jupyter Notebook
 - Git & GitHub
 - Arquitectura Medallion (Bronze, Silver, Gold)
 
-Instrucciones para la ejecución
+Instrucciones para la ejecución:
 1. Clona este repositorio
 2. Asegúrate de tener PySpark instalado
 3. Abre los notebooks en la carpeta `src/` y sigue el orden:
